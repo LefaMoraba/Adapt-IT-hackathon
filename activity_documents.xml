@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".documentsactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#131C4E"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="24dp"
+            android:background="#131C4E"
+            android:text="DOCUMENTS"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#CA0000"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="4dp"
+            android:background="#131C4E"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#CA0000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/uploadID"
+            android:src="@drawable/upload"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:id="@+id/uploadIDbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Upload"
+            android:textColor="#131C4E" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="4dp"
+            android:background="#131C4E"
+            android:text="Grade 11 final results"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#CA0000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/uploadResults"
+            android:src="@drawable/upload"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <Button
+            android:id="@+id/uploadResultsbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Upload"
+            android:textColor="#131C4E" />
+
+        <TextView
+            android:id="@+id/residance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="4dp"
+            android:background="#131C4E"
+            android:text="Proof of residence"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#CA0000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/uploadResidence"
+            android:src="@drawable/upload"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <Button
+            android:id="@+id/uploadResidencebtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Upload"
+            android:textColor="#131C4E" />
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Back"
+            android:textColor="#131C4E" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
