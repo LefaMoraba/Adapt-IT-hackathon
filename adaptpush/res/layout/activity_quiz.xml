@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quizactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#131C4E"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="24dp"
+            android:background="#131C4E"
+            android:text="QUIZ"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#CA0000"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CA0000"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:text="Answer the following questions below to find out in which faculty your interest lies..." />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Do you like Mathematics?" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Do you care for the health of the people?" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you a business minded person?" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you someone that likes to design and draw artifacts?" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you passionate for computers?" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you a history person?" />
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Do you have strong problem solving skills?" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Do you like to interact with a lot of people?" />
+
+        <Switch
+            android:id="@+id/switch9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you a more hands-on practical person?" />
+
+        <Switch
+            android:id="@+id/switch10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#03A9F4"
+            android:layout_marginLeft="5dp"
+            android:text="Are you an introvert?" />
+
+        <TextView
+            android:id="@+id/textViewans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#CA000"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Submit"
+            android:textColor="#131C4E" />
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rounded_button"
+            android:text="Back"
+            android:textColor="#131C4E" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
